@@ -1,0 +1,22 @@
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #cbd0d8;
+}
+header div {
+    border: 2px solid #000000;
+    padding: 15px 30px;
+    transition: color 0.3s, border-color 0.3s;
+}
+header div p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+header div:hover {
+    color: #447a9e;
+    border-color: #428bbb;
+}
